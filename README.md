@@ -55,3 +55,7 @@ The directories (`ssh` and `backup`) are required to for the functionality. The 
 
 The path `/backup/destination` is the hard coded path for the docker container to find the files. Do not change this path until you know what you are doing.
 
+In addition, the local SSH server port `2222` is used, because the ssh service is running as non-priviliged user within the container.
+
+
+If you need support - please ask [us](https://akamo.de).
