@@ -1,4 +1,4 @@
-FROM alpine:edge
+FROM alpine:v3.18
 LABEL Maintainer="Mario Lombardo <ml@akamo.de>" \
       Description="Lightweight container for backup destination"
 
